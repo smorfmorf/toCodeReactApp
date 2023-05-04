@@ -1,9 +1,12 @@
-function App() {
+import React from "react";
+import "./scss/main.scss";
+
+const App = () => {
     return (
-        <div className="App">
+        <div className="wrapper">
             <p>template</p>
         </div>
     );
-}
+};
 
 export default App;
